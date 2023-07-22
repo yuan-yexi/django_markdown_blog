@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 {% load markdown_extras %}
+{% load static %}
 
 {% block content %}
     <section>
         {{ blog_post.author }}
-        <img src="{{ blog_post.author.profile_picture }}" alt="profile" />
+        <img src="{{ blog_post.author.profile_picture.url }}" alt="profile" />
+        <img src="{{ blog_post.thumbnail.url }}" alt="thumbnail" />
         <div class="py-6">
             {{ blog_post.content | markdown | safe }}
         </div>

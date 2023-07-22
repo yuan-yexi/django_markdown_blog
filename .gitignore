@@ -4,6 +4,8 @@ db.sqlite3
 *.jpg
 *.png
 *.pyc
+static_cdn*
+media_cdn*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
