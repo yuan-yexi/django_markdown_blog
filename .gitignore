@@ -1,5 +1,9 @@
 .idea
 db.sqlite3
+*.jpeg
+*.jpg
+*.png
+*.pyc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
